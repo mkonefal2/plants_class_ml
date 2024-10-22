@@ -30,3 +30,6 @@ model/*.keras
 # Ignore system files
 .DS_Store
 Thumbs.db
+
+# Ignore compressed files
+data/archive.zip
