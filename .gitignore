@@ -1,0 +1,32 @@
+# Ignore files and folders related to the virtual environment
+tensorflow_gpu_env/
+__pycache__/
+
+# Ignore files and folders related to data
+data/extracted/
+data/train/
+data/val/
+data/test/
+
+# Ignore files and folders related to MLflow experiments
+mlruns/
+.trash/
+
+# Ignore model files
+model/*.keras
+
+# Ignore IDE configuration files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+
+# Ignore system files
+.DS_Store
+Thumbs.db
